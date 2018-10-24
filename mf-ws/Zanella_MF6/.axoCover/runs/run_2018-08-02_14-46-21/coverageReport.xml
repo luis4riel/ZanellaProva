@@ -1,0 +1,715 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CoverageSession xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Version="4.6.0.0">
+  <Summary numSequencePoints="89" visitedSequencePoints="77" numBranchPoints="26" visitedBranchPoints="22" sequenceCoverage="86.52" branchCoverage="84.62" maxCyclomaticComplexity="7" minCyclomaticComplexity="0" maxCrapScore="56" minCrapScore="0" visitedClasses="9" numClasses="13" visitedMethods="18" numMethods="22" />
+  <Modules>
+    <Module hash="32-93-42-E5-87-FE-E6-6B-5F-AD-28-4F-DB-65-F1-1C-10-7C-6A-E7">
+      <Summary numSequencePoints="45" visitedSequencePoints="33" numBranchPoints="15" visitedBranchPoints="11" sequenceCoverage="73.33" branchCoverage="73.33" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="1" visitedClasses="5" numClasses="9" visitedMethods="9" numMethods="13" />
+      <ModulePath>C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Controller.Tests\bin\Debug\MF6.API.dll</ModulePath>
+      <ModuleTime>2018-08-02T17:44:59.6547847Z</ModuleTime>
+      <ModuleName>MF6.API</ModuleName>
+      <Files>
+        <File uid="1" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Global.asax.cs" />
+        <File uid="2" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Models\MediaTypes.cs" />
+        <File uid="3" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Filters\ExceptionHandlerAttribute.cs" />
+        <File uid="4" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Extensions\ExtensionHandlingExtensions.cs" />
+        <File uid="5" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Exceptions\ExceptionPayload.cs" />
+        <File uid="6" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Controllers\Testes\TestesController.cs" />
+        <File uid="8" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Controllers\Common\ApiControllerBase.cs" />
+        <File uid="9" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.API\Controllers\Common\PublicController.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="1" maxCrapScore="56" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>&lt;&gt;f__AnonymousType0`2</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>&lt;id&gt;j__TPar &lt;&gt;f__AnonymousType0`2::get_id()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="1" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>&lt;action&gt;j__TPar &lt;&gt;f__AnonymousType0`2::get_action()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="2" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Void &lt;&gt;f__AnonymousType0`2::.ctor(&lt;id&gt;j__TPar,&lt;action&gt;j__TPar)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="3" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="3" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="12" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="3" minCyclomaticComplexity="3" maxCrapScore="12" minCrapScore="12" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Boolean &lt;&gt;f__AnonymousType0`2::Equals(System.Object)</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="4" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>System.Int32 &lt;&gt;f__AnonymousType0`2::GetHashCode()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="5" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="7" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="56" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="7" minCyclomaticComplexity="7" maxCrapScore="56" minCrapScore="56" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.String &lt;&gt;f__AnonymousType0`2::ToString()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="6" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MF6.API.WebApiApplication</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void MF6.API.WebApiApplication::Application_Start()</Name>
+              <FileRef uid="1" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="7" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="8" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="66" bec="0" bev="0" fileid="1" />
+                <SequencePoint vc="0" uspid="9" ordinal="2" offset="19" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="1" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="7" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="1" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Void MF6.API.WebApiApplication::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="10" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MF6.API.Models.MediaTypes</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void MF6.API.Models.MediaTypes::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="11" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void MF6.API.Models.MediaTypes::.cctor()</Name>
+              <FileRef uid="2" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="12" ordinal="0" offset="0" sl="5" sc="9" el="5" ec="65" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="13" ordinal="1" offset="10" sl="6" sc="9" el="6" ec="80" bec="0" bev="0" fileid="2" />
+                <SequencePoint vc="0" uspid="14" ordinal="2" offset="20" sl="7" sc="9" el="7" ec="56" bec="0" bev="0" fileid="2" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="12" ordinal="0" offset="0" sl="5" sc="9" el="5" ec="65" bec="0" bev="0" fileid="2" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MF6.API.Filters.ExceptionHandlerAttribute</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void MF6.API.Filters.ExceptionHandlerAttribute::OnException(System.Web.Http.Filters.HttpActionExecutedContext)</Name>
+              <FileRef uid="3" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="15" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="16" ordinal="1" offset="1" sl="14" sc="13" el="14" ec="73" bec="0" bev="0" fileid="3" />
+                <SequencePoint vc="0" uspid="17" ordinal="2" offset="14" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="3" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="15" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="3" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Void MF6.API.Filters.ExceptionHandlerAttribute::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="18" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="1" visitedMethods="0" numMethods="1" />
+          <FullName>MF6.API.Extensions.ExtensionHandlingExtensions</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="0" numBranchPoints="1" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="1" />
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Net.Http.HttpResponseMessage MF6.API.Extensions.ExtensionHandlingExtensions::HandleExecutedContextException(System.Web.Http.Filters.HttpActionExecutedContext)</Name>
+              <FileRef uid="4" />
+              <SequencePoints>
+                <SequencePoint vc="0" uspid="19" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="20" ordinal="1" offset="1" sl="12" sc="13" el="12" ec="128" bec="0" bev="0" fileid="4" />
+                <SequencePoint vc="0" uspid="21" ordinal="2" offset="31" sl="13" sc="9" el="13" ec="10" bec="0" bev="0" fileid="4" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="0" uspid="19" ordinal="0" offset="0" sl="11" sc="9" el="11" ec="10" bec="0" bev="0" fileid="4" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MF6.API.Exceptions.ExceptionPayload</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Int32 MF6.API.Exceptions.ExceptionPayload::get_ErrorCode()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void MF6.API.Exceptions.ExceptionPayload::set_ErrorCode(System.Int32)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>System.String MF6.API.Exceptions.ExceptionPayload::get_ErrorMessage()</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void MF6.API.Exceptions.ExceptionPayload::set_ErrorMessage(System.String)</Name>
+              <FileRef uid="5" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="true" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663318</MetadataToken>
+              <Name>MF6.API.Exceptions.ExceptionPayload MF6.API.Exceptions.ExceptionPayload::New(T)</Name>
+              <FileRef uid="5" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="22" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="23" ordinal="1" offset="1" sl="18" sc="13" el="18" ec="48" bec="2" bev="2" fileid="5" />
+                <SequencePoint vc="1" uspid="24" ordinal="2" offset="19" sl="19" sc="17" el="19" ec="86" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="1" uspid="25" ordinal="3" offset="52" sl="21" sc="17" el="21" ec="64" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="26" ordinal="4" offset="72" sl="22" sc="13" el="26" ec="15" bec="0" bev="0" fileid="5" />
+                <SequencePoint vc="2" uspid="27" ordinal="5" offset="106" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="5" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="28" ordinal="0" offset="17" sl="18" path="0" offsetend="19" fileid="5" />
+                <BranchPoint vc="1" uspid="29" ordinal="1" offset="17" sl="18" path="1" offsetend="52" fileid="5" />
+              </BranchPoints>
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="22" ordinal="0" offset="0" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="5" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663319</MetadataToken>
+              <Name>System.Void MF6.API.Exceptions.ExceptionPayload::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="30" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MF6.API.Controllers.Testes.TestesController</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663320</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult MF6.API.Controllers.Testes.TestesController::GetById(System.Int64)</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="31" ordinal="0" offset="13" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="32" ordinal="1" offset="14" sl="20" sc="13" el="20" ec="68" bec="0" bev="0" fileid="6" />
+                <SequencePoint vc="1" uspid="33" ordinal="2" offset="35" sl="21" sc="9" el="21" ec="10" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint vc="1" uspid="34" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663321</MetadataToken>
+              <Name>System.Void MF6.API.Controllers.Testes.TestesController::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="35" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MF6.API.Controllers.Testes.TestesController/&lt;&gt;c__DisplayClass0_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663330</MetadataToken>
+              <Name>System.Void MF6.API.Controllers.Testes.TestesController/&lt;&gt;c__DisplayClass0_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="36" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="1" visitedSequencePoints="1" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663331</MetadataToken>
+              <Name>System.String MF6.API.Controllers.Testes.TestesController/&lt;&gt;c__DisplayClass0_0::&lt;GetById&gt;b__0()</Name>
+              <FileRef uid="6" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="37" ordinal="0" offset="0" sl="20" sc="41" el="20" ec="66" bec="0" bev="0" fileid="6" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="37" ordinal="0" offset="0" sl="20" sc="41" el="20" ec="66" bec="0" bev="0" fileid="6" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="20" visitedSequencePoints="20" numBranchPoints="5" visitedBranchPoints="5" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="5" numMethods="5" />
+          <FullName>MF6.API.Controllers.Common.ApiControllerBase</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663322</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult MF6.API.Controllers.Common.ApiControllerBase::HandleCallback(System.Func`1&lt;TSuccess&gt;)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="3" uspid="38" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="3" uspid="39" ordinal="1" offset="1" sl="17" sc="13" el="17" ec="14" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="3" uspid="40" ordinal="2" offset="2" sl="18" sc="17" el="18" ec="35" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="41" ordinal="3" offset="17" sl="20" sc="13" el="20" ec="32" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="42" ordinal="4" offset="18" sl="21" sc="13" el="21" ec="14" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="43" ordinal="5" offset="19" sl="22" sc="17" el="22" ec="41" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="3" uspid="44" ordinal="6" offset="29" sl="24" sc="9" el="24" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="3" uspid="38" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663323</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult MF6.API.Controllers.Common.ApiControllerBase::HandleQuery(System.Linq.IQueryable`1&lt;TResult&gt;)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="45" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="46" ordinal="1" offset="1" sl="28" sc="13" el="28" ec="39" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="47" ordinal="2" offset="16" sl="29" sc="9" el="29" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="45" ordinal="0" offset="0" sl="27" sc="9" el="27" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663324</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult MF6.API.Controllers.Common.ApiControllerBase::HandleQueryable(System.Linq.IQueryable`1&lt;TSource&gt;)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="48" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="49" ordinal="1" offset="1" sl="33" sc="13" el="33" ec="39" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="50" ordinal="2" offset="16" sl="34" sc="9" el="34" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="48" ordinal="0" offset="0" sl="32" sc="9" el="32" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663325</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult MF6.API.Controllers.Common.ApiControllerBase::HandleFailure(T)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="51" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="52" ordinal="1" offset="1" sl="38" sc="13" el="38" ec="76" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="53" ordinal="2" offset="8" sl="39" sc="13" el="41" ec="79" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="2" uspid="54" ordinal="3" offset="50" sl="42" sc="9" el="42" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="51" ordinal="0" offset="0" sl="37" sc="9" el="37" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663326</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult MF6.API.Controllers.Common.ApiControllerBase::HandleValidationFailure(System.Collections.Generic.IList`1&lt;T&gt;)</Name>
+              <FileRef uid="8" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="57" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="58" ordinal="1" offset="1" sl="46" sc="13" el="46" ec="74" bec="0" bev="0" fileid="8" />
+                <SequencePoint vc="1" uspid="59" ordinal="2" offset="16" sl="47" sc="9" el="47" ec="10" bec="0" bev="0" fileid="8" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="57" ordinal="0" offset="0" sl="45" sc="9" el="45" ec="10" bec="0" bev="0" fileid="8" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663327</MetadataToken>
+              <Name>System.Void MF6.API.Controllers.Common.ApiControllerBase::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="60" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MF6.API.Controllers.Common.PublicController</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663328</MetadataToken>
+              <Name>System.Web.Http.IHttpActionResult MF6.API.Controllers.Common.PublicController::IsAlive()</Name>
+              <FileRef uid="9" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="61" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="62" ordinal="1" offset="1" sl="16" sc="13" el="16" ec="29" bec="0" bev="0" fileid="9" />
+                <SequencePoint vc="1" uspid="63" ordinal="2" offset="11" sl="17" sc="9" el="17" ec="10" bec="0" bev="0" fileid="9" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="61" ordinal="0" offset="0" sl="15" sc="9" el="15" ec="10" bec="0" bev="0" fileid="9" />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663329</MetadataToken>
+              <Name>System.Void MF6.API.Controllers.Common.PublicController::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="64" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="58-9D-57-E3-AD-20-66-12-85-0D-A6-27-D2-99-C4-5D-F1-D8-98-BF">
+      <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="2" visitedBranchPoints="2" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="2" numClasses="2" visitedMethods="2" numMethods="2" />
+      <ModulePath>C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Controller.Tests\bin\Debug\MF6.Domain.dll</ModulePath>
+      <ModuleTime>2018-08-02T17:44:54.5334161Z</ModuleTime>
+      <ModuleName>MF6.Domain</ModuleName>
+      <Files>
+        <File uid="19" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Domain\Features\Impressoras\Impressora.cs" />
+        <File uid="20" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Domain\Exceptions\BusinessException.cs" />
+        <File uid="21" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Domain\Exceptions\NaoEncontradoException.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>MF6.Domain.Features.Impressoras.Impressora</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663302</MetadataToken>
+              <Name>System.Int32 MF6.Domain.Features.Impressoras.Impressora::get_Id()</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Void MF6.Domain.Features.Impressoras.Impressora::set_Id(System.Int32)</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663304</MetadataToken>
+              <Name>System.String MF6.Domain.Features.Impressoras.Impressora::get_Marca()</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663305</MetadataToken>
+              <Name>System.Void MF6.Domain.Features.Impressoras.Impressora::set_Marca(System.String)</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663306</MetadataToken>
+              <Name>System.String MF6.Domain.Features.Impressoras.Impressora::get_Ip()</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663307</MetadataToken>
+              <Name>System.Void MF6.Domain.Features.Impressoras.Impressora::set_Ip(System.String)</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663308</MetadataToken>
+              <Name>System.Boolean MF6.Domain.Features.Impressoras.Impressora::get_EmUso()</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663309</MetadataToken>
+              <Name>System.Void MF6.Domain.Features.Impressoras.Impressora::set_EmUso(System.Boolean)</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Int32 MF6.Domain.Features.Impressoras.Impressora::get_NivelTonerColorido()</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663311</MetadataToken>
+              <Name>System.Void MF6.Domain.Features.Impressoras.Impressora::set_NivelTonerColorido(System.Int32)</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663312</MetadataToken>
+              <Name>System.Int32 MF6.Domain.Features.Impressoras.Impressora::get_NivelTonerPreto()</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="false" isSetter="true">
+              <MetadataToken>100663313</MetadataToken>
+              <Name>System.Void MF6.Domain.Features.Impressoras.Impressora::set_NivelTonerPreto(System.Int32)</Name>
+              <FileRef uid="19" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663314</MetadataToken>
+              <Name>System.Void MF6.Domain.Features.Impressoras.Impressora::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="65" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MF6.Domain.Exceptions.BusinessException</FullName>
+          <Methods>
+            <Method skippedDueTo="AutoImplementedProperty" visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="0" isConstructor="false" isStatic="false" isGetter="true" isSetter="false">
+              <MetadataToken>100663316</MetadataToken>
+              <Name>MF6.Domain.Exceptions.ErrorCodes MF6.Domain.Exceptions.BusinessException::get_ErrorCode()</Name>
+              <FileRef uid="20" />
+              <SequencePoints />
+              <BranchPoints />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663315</MetadataToken>
+              <Name>System.Void MF6.Domain.Exceptions.BusinessException::.ctor(MF6.Domain.Exceptions.ErrorCodes,System.String)</Name>
+              <FileRef uid="20" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="66" ordinal="0" offset="0" sl="7" sc="74" el="7" ec="87" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="2" uspid="67" ordinal="1" offset="8" sl="8" sc="9" el="8" ec="10" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="2" uspid="68" ordinal="2" offset="9" sl="9" sc="13" el="9" ec="35" bec="0" bev="0" fileid="20" />
+                <SequencePoint vc="2" uspid="69" ordinal="3" offset="16" sl="10" sc="9" el="10" ec="10" bec="0" bev="0" fileid="20" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="66" ordinal="0" offset="0" sl="7" sc="74" el="7" ec="87" bec="0" bev="0" fileid="20" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MF6.Domain.Exceptions.NaoEncontradoException</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663317</MetadataToken>
+              <Name>System.Void MF6.Domain.Exceptions.NaoEncontradoException::.ctor()</Name>
+              <FileRef uid="21" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="70" ordinal="0" offset="0" sl="5" sc="43" el="5" ec="95" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="1" uspid="71" ordinal="1" offset="17" sl="5" sc="96" el="5" ec="97" bec="0" bev="0" fileid="21" />
+                <SequencePoint vc="1" uspid="72" ordinal="2" offset="18" sl="5" sc="98" el="5" ec="99" bec="0" bev="0" fileid="21" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="70" ordinal="0" offset="0" sl="5" sc="43" el="5" ec="95" bec="0" bev="0" fileid="21" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="B5-38-33-5E-25-B3-46-89-B1-89-53-BC-B9-12-54-DC-F1-4A-EB-01">
+      <Summary numSequencePoints="37" visitedSequencePoints="37" numBranchPoints="9" visitedBranchPoints="9" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="2" numClasses="2" visitedMethods="7" numMethods="7" />
+      <ModulePath>C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Infra.ORM.Tests\bin\Debug\MF6.Infra.ORM.dll</ModulePath>
+      <ModuleTime>2018-08-02T17:45:00.1831359Z</ModuleTime>
+      <ModuleName>MF6.Infra.ORM</ModuleName>
+      <Files>
+        <File uid="25" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Infra.ORM\Features\Impressoras\ImpressoraConfiguracao.cs" />
+        <File uid="26" fullPath="C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Infra.ORM\Features\Impressoras\ImpressoraRepositorio.cs" />
+      </Files>
+      <Classes>
+        <Class>
+          <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="1" numMethods="1" />
+          <FullName>MF6.Infra.ORM.Features.Impressoras.ImpressoraConfiguracao</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="10" visitedSequencePoints="10" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663297</MetadataToken>
+              <Name>System.Void MF6.Infra.ORM.Features.Impressoras.ImpressoraConfiguracao::.ctor()</Name>
+              <FileRef uid="25" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="73" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="40" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="74" ordinal="1" offset="7" sl="9" sc="9" el="9" ec="10" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="75" ordinal="2" offset="8" sl="10" sc="13" el="10" ec="42" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="76" ordinal="3" offset="20" sl="12" sc="13" el="12" ec="92" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="77" ordinal="4" offset="111" sl="13" sc="13" el="13" ec="88" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="78" ordinal="5" offset="202" sl="14" sc="13" el="14" ec="49" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="79" ordinal="6" offset="271" sl="15" sc="13" el="15" ec="83" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="80" ordinal="7" offset="350" sl="16" sc="13" el="16" ec="80" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="81" ordinal="8" offset="429" sl="18" sc="13" el="18" ec="36" bec="0" bev="0" fileid="25" />
+                <SequencePoint vc="1" uspid="82" ordinal="9" offset="493" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="25" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="73" ordinal="0" offset="0" sl="8" sc="9" el="8" ec="40" bec="0" bev="0" fileid="25" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="27" visitedSequencePoints="27" numBranchPoints="8" visitedBranchPoints="8" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="1" visitedClasses="1" numClasses="1" visitedMethods="6" numMethods="6" />
+          <FullName>MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio</FullName>
+          <Methods>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663298</MetadataToken>
+              <Name>System.Void MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio::.ctor(MF6.Infra.ORM.Contexts.MF6Context)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="8" uspid="83" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="58" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="8" uspid="84" ordinal="1" offset="7" sl="14" sc="9" el="14" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="8" uspid="85" ordinal="2" offset="8" sl="15" sc="13" el="15" ec="34" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="8" uspid="86" ordinal="3" offset="15" sl="16" sc="9" el="16" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="8" uspid="83" ordinal="0" offset="0" sl="13" sc="9" el="13" ec="58" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="4" visitedSequencePoints="4" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663299</MetadataToken>
+              <Name>System.Boolean MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio::Atualizar(MF6.Domain.Features.Impressoras.Impressora)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="87" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="2" uspid="88" ordinal="1" offset="1" sl="20" sc="13" el="20" ec="70" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="2" uspid="89" ordinal="2" offset="21" sl="21" sc="13" el="21" ec="48" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="90" ordinal="3" offset="38" sl="22" sc="9" el="22" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="87" ordinal="0" offset="0" sl="19" sc="9" el="19" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="2" nPathComplexity="2" sequenceCoverage="100" branchCoverage="100" crapScore="2" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="7" visitedSequencePoints="7" numBranchPoints="3" visitedBranchPoints="3" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="2" minCyclomaticComplexity="2" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663300</MetadataToken>
+              <Name>System.Boolean MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio::Deletar(System.Int32)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="91" ordinal="0" offset="13" sl="25" sc="9" el="25" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="2" uspid="92" ordinal="1" offset="14" sl="26" sc="13" el="26" ec="102" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="2" uspid="93" ordinal="2" offset="129" sl="28" sc="13" el="28" ec="36" bec="2" bev="2" fileid="26" />
+                <SequencePoint vc="1" uspid="94" ordinal="3" offset="137" sl="29" sc="17" el="29" ec="52" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="95" ordinal="4" offset="143" sl="31" sc="13" el="31" ec="69" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="96" ordinal="5" offset="162" sl="32" sc="13" el="32" ec="48" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="97" ordinal="6" offset="180" sl="33" sc="9" el="33" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints>
+                <BranchPoint vc="1" uspid="98" ordinal="0" offset="135" sl="28" path="0" offsetend="137" fileid="26" />
+                <BranchPoint vc="1" uspid="99" ordinal="1" offset="135" sl="28" path="1" offsetend="143" fileid="26" />
+              </BranchPoints>
+              <MethodPoint vc="2" uspid="100" ordinal="0" offset="0" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="6" visitedSequencePoints="6" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663301</MetadataToken>
+              <Name>MF6.Domain.Features.Impressoras.Impressora MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio::Inserir(MF6.Domain.Features.Impressoras.Impressora)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="101" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="102" ordinal="1" offset="1" sl="37" sc="13" el="37" ec="54" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="103" ordinal="2" offset="19" sl="38" sc="13" el="38" ec="72" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="104" ordinal="3" offset="37" sl="39" sc="13" el="39" ec="37" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="105" ordinal="4" offset="49" sl="40" sc="13" el="40" ec="35" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="106" ordinal="5" offset="53" sl="41" sc="9" el="41" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="101" ordinal="0" offset="0" sl="36" sc="9" el="36" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663302</MetadataToken>
+              <Name>MF6.Domain.Features.Impressoras.Impressora MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio::PegarPorId(System.Int32)</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="2" uspid="107" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="2" uspid="108" ordinal="1" offset="1" sl="45" sc="13" el="45" ec="61" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="2" uspid="109" ordinal="2" offset="35" sl="46" sc="9" el="46" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="2" uspid="107" ordinal="0" offset="0" sl="44" sc="9" el="44" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+            <Method visited="true" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="100" branchCoverage="100" crapScore="1" isConstructor="false" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="3" visitedSequencePoints="3" numBranchPoints="1" visitedBranchPoints="1" sequenceCoverage="100" branchCoverage="100" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="1" minCrapScore="1" visitedClasses="0" numClasses="0" visitedMethods="1" numMethods="1" />
+              <MetadataToken>100663303</MetadataToken>
+              <Name>System.Linq.IQueryable`1&lt;MF6.Domain.Features.Impressoras.Impressora&gt; MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio::PegarTodos()</Name>
+              <FileRef uid="26" />
+              <SequencePoints>
+                <SequencePoint vc="1" uspid="110" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="111" ordinal="1" offset="1" sl="50" sc="13" el="50" ec="61" bec="0" bev="0" fileid="26" />
+                <SequencePoint vc="1" uspid="112" ordinal="2" offset="77" sl="51" sc="9" el="51" ec="10" bec="0" bev="0" fileid="26" />
+              </SequencePoints>
+              <BranchPoints />
+              <MethodPoint xsi:type="SequencePoint" vc="1" uspid="110" ordinal="0" offset="0" sl="49" sc="9" el="49" ec="10" bec="0" bev="0" fileid="26" />
+            </Method>
+          </Methods>
+        </Class>
+        <Class>
+          <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+          <FullName>MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio/&lt;&gt;c__DisplayClass3_0</FullName>
+          <Methods>
+            <Method visited="false" cyclomaticComplexity="1" nPathComplexity="0" sequenceCoverage="0" branchCoverage="0" crapScore="2" isConstructor="true" isStatic="false" isGetter="false" isSetter="false">
+              <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="1" minCyclomaticComplexity="1" maxCrapScore="2" minCrapScore="2" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+              <MetadataToken>100663310</MetadataToken>
+              <Name>System.Void MF6.Infra.ORM.Features.Impressoras.ImpressoraRepositorio/&lt;&gt;c__DisplayClass3_0::.ctor()</Name>
+              <SequencePoints />
+              <BranchPoints />
+              <MethodPoint vc="0" uspid="113" ordinal="0" offset="0" />
+            </Method>
+          </Methods>
+        </Class>
+      </Classes>
+    </Module>
+    <Module hash="7B-FC-DE-73-92-E4-6F-F3-22-80-9A-4C-1D-25-83-CF-F8-8C-01-87">
+      <Summary numSequencePoints="0" visitedSequencePoints="0" numBranchPoints="0" visitedBranchPoints="0" sequenceCoverage="0" branchCoverage="0" maxCyclomaticComplexity="0" minCyclomaticComplexity="0" maxCrapScore="0" minCrapScore="0" visitedClasses="0" numClasses="0" visitedMethods="0" numMethods="0" />
+      <ModulePath>C:\Users\ndduser\Desktop\ZanellaProva\ZanellaProva\mf-ws\Zanella_MF6\MF6.Infra.ORM.Tests\bin\Debug\MF6.Common.Tests.dll</ModulePath>
+      <ModuleTime>2018-08-02T17:45:58.8991376Z</ModuleTime>
+      <ModuleName>MF6.Common.Tests</ModuleName>
+      <Files />
+      <Classes />
+    </Module>
+  </Modules>
+</CoverageSession>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zanella.ORM.Domain.Funcionalidades.Departamentos.Departamento">
+    <Position X="0.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Funcionalidades\Departamentos\Departamento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zanella.ORM.Domain.Funcionalidades.Dependentes.Dependente">
+    <Position X="4.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAIAAAAAAAAAAAAQAAAAAAgAAAAAA=</HashCode>
+      <FileName>Funcionalidades\Dependentes\Dependente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zanella.ORM.Domain.Funcionalidades.Enderecos.Endereco">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CCAAAAAAAAAAACIEAAAAAAAAAAAAAQAAAAAAAAABAAg=</HashCode>
+      <FileName>Funcionalidades\Enderecos\Endereco.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zanella.ORM.Domain.Funcionalidades.Funcionarios.Funcionario">
+    <Position X="1.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAQAAIAAAAAAAMAA=</HashCode>
+      <FileName>Funcionalidades\Funcionarios\Funcionario.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zanella.ORM.Domain.Funcionalidades.Projetos.Projeto">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAQAAAQAgAAAAAAAAAAA=</HashCode>
+      <FileName>Funcionalidades\Projetos\Projeto.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zanella.ORM.Domain.Funcionalidades.Cargos.Cargo">
+    <Position X="3" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Funcionalidades\Cargos\Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

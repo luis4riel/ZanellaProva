@@ -1,0 +1,222 @@
+{
+	"info": {
+		"_postman_id": "6717d101-308d-4ba5-86ea-1197250d15e3",
+		"name": "ZanellaProva",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"_postman_id": "4884fffa-3d05-4da5-8fe5-7bbf243aeb16",
+			"name": "Pegar Todos",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:55841/api/impressora",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55841",
+					"path": [
+						"api",
+						"impressora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "51c9c85f-ba8e-4192-b2c6-23a3eccfbd0b",
+			"name": "Pegar por Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {},
+				"url": {
+					"raw": "http://localhost:55841/api/impressora/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55841",
+					"path": [
+						"api",
+						"impressora",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "ec644b89-ecdb-4faf-88d3-1a6b5a6dec32",
+			"name": "Inserir",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"Marca\": \"Brother\",\n\t\"Ip\" : \"172.31.253.111\",\n\t\"EmUso\" : false,\n\t\"NivelTonerColorido\" : 99,\n    \"NivelTonerPreto\" : 50\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55841/api/impressora",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55841",
+					"path": [
+						"api",
+						"impressora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "9a608b04-230d-44c0-a578-273b09676f06",
+			"name": "Atualizar",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"id\": 1,\n    \"marca\": \"Kyocera\",\n    \"ip\": \"172.31.253.111\",\n    \"emUso\": false,\n    \"nivelTonerColorido\": 99,\n    \"nivelTonerPreto\": 50\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55841/api/impressora",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55841",
+					"path": [
+						"api",
+						"impressora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "643900e9-dfa1-4bc5-81fc-fea8f2ad5878",
+			"name": "Deletar",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"id\" : 1\n}"
+				},
+				"url": {
+					"raw": "http://localhost:55841/api/impressora",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55841",
+					"path": [
+						"api",
+						"impressora"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "dee387a2-e82b-480b-8692-7aeff6855b59",
+			"name": "Atualizar Toner Colorido",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "",
+							"value": "66",
+							"sessionValue": "66",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:55841/api/impressora/tonerColorido/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55841",
+					"path": [
+						"api",
+						"impressora",
+						"tonerColorido",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"_postman_id": "96b5ee4b-fc26-4008-a533-54cc673f4418",
+			"name": "Atualizar Toner Mono",
+			"request": {
+				"method": "PATCH",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/x-www-form-urlencoded"
+					}
+				],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "",
+							"value": "77",
+							"sessionValue": "100",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:55841/api/impressora/tonerPreto/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "55841",
+					"path": [
+						"api",
+						"impressora",
+						"tonerPreto",
+						"1"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

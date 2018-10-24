@@ -1,0 +1,6 @@
+﻿CREATE TABLE [dbo].[TBAvaliacao]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY, 
+    [Assunto] VARCHAR(150) NOT NULL, 
+    [Data] DATETIME NOT NULL 
+)
